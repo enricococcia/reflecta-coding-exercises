@@ -5,7 +5,7 @@
 .title-exercise {
     text-align: center;
     font-size: 34px;
-    margin: 10px;
+    margin: 10px 10px 30px 10px;
 }
 .developed-by {
     text-align: right;
@@ -13,7 +13,7 @@
 .download-button {
     display: block;
     text-decoration: none;
-    background-color: #3f6b8c!important;
+    background-color: #3f6b8c;
     line-height: 46px;
     border-radius: 3px;
     text-align: center;
@@ -21,5 +21,11 @@
     text-align: center;
     float: right;
     color: #fff;
-    margin-bottom: 100px;
+}
+.download-button.red {
+    background-color: orangered;
+}
+.divider {
+    clear: both;
+    display: block;
 }
