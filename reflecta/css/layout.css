@@ -1,0 +1,25 @@
+.exercise {
+    margin-bottom: 80px;
+}
+
+.title-exercise {
+    text-align: center;
+    font-size: 34px;
+    margin: 10px;
+}
+.developed-by {
+    text-align: right;
+}
+.download-button {
+    display: block;
+    text-decoration: none;
+    background-color: #3f6b8c!important;
+    line-height: 46px;
+    border-radius: 3px;
+    text-align: center;
+    width: 240px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,236 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+}
+
+/* FIRST EXERCISE CSS */
+.banner {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+.banner .banner-company {
+    padding: 0 70px;
+    position: relative;
+}
+
+.banner .banner-description {
+    display: flex;
+    background-color: #de1f26;
+    border-top-left-radius: 25px 150px;
+    border-bottom-left-radius: 25px 150px;
+    width: 100%;
+    height: 150px;
+    align-self: center;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.banner .banner-description .banner-text {
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1em;
+    margin: 0;
+    align-self: center;
+    padding-right: 40px;
+}
+
+.banner .banner-description .banner-button-box {
+    align-self: center;
+    flex-basis: 240px;
+}
+
+.banner .banner-description .banner-button-box .banner-button { 
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    display: block;
+    line-height: 46px;
+    padding: 0 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+
+.circle.circle-grey {
+    background-color: #f3e6e0;
+}
+
+.circle.circle-red {
+    background-color: #de1f26;
+}
+
+.circle.circle-top-left {
+   top: 12px;
+   left: 25px;
+   width: 30px;
+   height: 30px;
+}
+
+.circle.circle-middle-left {
+    top: 58px;
+    left: 24px;
+    width: 7px;
+    height: 7px;
+}
+
+.circle.circle-bottom-left {
+    top: 121px;
+    left: 19px;
+    width: 11px;
+    height: 11px;
+}
+
+.circle.circle-top-right {
+    top: 3px;
+    right: 15px;
+    width: 53px;
+    height: 53px;
+}
+
+.circle.circle-bottom-right {
+    top: 101px;
+    right: 19px;
+    width: 36px;
+    height: 36px;
+}
+
+@media (max-width: 992px) {
+
+    .banner .banner-description { 
+        padding: 20px;
+    }
+
+    .banner .banner-company { 
+        text-align: center;
+    }
+
+    .banner .banner-description .banner-text {
+        font-size: 22px;
+        padding-right: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .banner {
+        display: block;
+    }
+
+    .banner .banner-company { 
+        padding-bottom: 15px;
+    }
+
+    .banner .banner-description {
+        height: 100px;
+        border-radius: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .banner .banner-description {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .banner .banner-description .banner-text {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .banner .banner-description .banner-button-box .banner-button { 
+        border: none;
+        font-size: 18px;
+        padding: 0;
+        text-align: right;
+        text-decoration: underline;
+    }
+
+}
+
+/* SECOND EXERCISE CSS */
+
+.promo-tile {
+    height: 390px;
+    width: 100%;
+    max-width: 240px;
+    min-width: 185px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.promo-tile .promo-tile-detail {
+    position: relative;
+    padding: 0 15px;
+}
+
+.promo-tile .promo-tile-detail .promo-tile-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.promo-tile .promo-tile-detail .promo-tile-description {
+    font-size: 16px;
+}
+
+.promo-tile .promo-tile-detail .promo-tile-copy {
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.promo-tile .promo-tile-link {
+    color:#262626;
+    background-color: #f7f7f7;
+    border: 1px solid #cac8c8;
+    line-height: 34px;
+    text-decoration: none;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .promo-tile {
+        max-width: none;
+        min-width: none;
+        height: auto;
+    }
+    .promo-tile .promo-tile-detail {
+        padding-left: 130px;
+        text-align: left;
+    }
+    .promo-tile .promo-tile-image {
+        width: 100px;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    .promo-tile .promo-tile-detail .promo-tile-title { 
+        margin: 10px 0;
+    }
+    .promo-tile .promo-tile-detail .promo-tile-description {
+        margin: 0 0 14px 0;
+    }
+}
