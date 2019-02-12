@@ -60,6 +60,7 @@ body {
     display: block;
     line-height: 46px;
     color: #fff;
+    width: 164px;
     text-decoration: none;
     text-align: center;
 }
@@ -159,6 +160,7 @@ body {
 
     .banner .banner-description .banner-button-box .banner-button { 
         padding: 0 5px;
+        width: auto;
     }
 
 }
